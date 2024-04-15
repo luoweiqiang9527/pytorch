@@ -71,7 +71,7 @@ If you use NumPy, then you have used Tensors (a.k.a. ndarray).
 ![Tensor illustration](./docs/source/_static/img/tensor_illustration.png)
 
 PyTorch provides Tensors that can live either on the CPU or the GPU and accelerates the
-computation by a huge amount.
+computation by a huge amount. 可以使用cpu进行计算，也可以使用GPU进行加速计算。
 
 We provide a wide variety of tensor routines to accelerate and fit your scientific computation needs
 such as slicing, indexing, mathematical operations, linear algebra, reductions.
@@ -79,14 +79,14 @@ And they are fast!
 
 ### Dynamic Neural Networks: Tape-Based Autograd
 
-PyTorch has a unique way of building neural networks: using and replaying a tape recorder.
+PyTorch has a unique way of building neural networks: using and replaying a tape recorder. 独特的方式构建神经网络，使用和重放磁带？
 
 Most frameworks such as TensorFlow, Theano, Caffe, and CNTK have a static view of the world.
 One has to build a neural network and reuse the same structure again and again.
-Changing the way the network behaves means that one has to start from scratch.
+Changing the way the network behaves means that one has to start from scratch. 其他框架改变网络需要重新开始。
 
-With PyTorch, we use a technique called reverse-mode auto-differentiation, which allows you to
-change the way your network behaves arbitrarily with zero lag or overhead. Our inspiration comes
+With PyTorch, we use a technique called reverse-mode auto-differentiation 反向模式自动微分, which allows you to
+change the way your network behaves arbitrarily with zero lag or overhead.零延迟和开销 Our inspiration 灵感comes
 from several research papers on this topic, as well as current and past work such as
 [torch-autograd](https://github.com/twitter/torch-autograd),
 [autograd](https://github.com/HIPS/autograd),
